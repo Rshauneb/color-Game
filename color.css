@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#container{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1{
+text-transform: capitalize;
+font-weight: 700;
+color: white;
+font-size: 50px;
+text-align: center;
+margin-bottom: 25px;
+padding-top: 25px;
+}
+
+h2{
+  color: #fff;
+  text-align: center;
+  font-size: 46px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-bottom: 25px;
+}
+
+.result{
+  /* background-color: #000; */
+  color: black;
+  text-align: center;
+}
+
+body{
+  background-color: #232323;
+}
+
+.blueBg{
+  background-color: #3b5998;
+  width: 100%;
+  margin: 0;
+  margin-top: 0;
+}
+
+.whiteBG{
+  background-color: #fff;
+  width: 100%;
+  /* height: 40px; */
+  padding-bottom: 1px;
+  margin-bottom: 50px;
+}
+
+.whiteBG .menu{
+  text-align: center;
+  width: 100%;
+}
+
+#reset{
+  cursor: pointer;
+  transition: all .5s;
+}
+
+#reset:hover{
+  background-color: #3b5998;
+  color: #fff;
+}
+
+#easy{
+cursor: pointer;
+transition: all .5s;
+}
+
+#easy:hover{
+background-color: #3b5998;
+color: #fff;
+}
+
+#hard{
+cursor: pointer;
+transition: all .5s;
+}
+#hard:hover{
+  color: #fff;
+background-color: #3b5998;
+}
+
+.selected{
+  color: #fff !important;
+  background-color: #3b5998;
+}
+
+.whiteBG div{
+  display: inline-block;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  width: 15%;
+  margin: 6px 0;
+  font-weight: 700;
+  color: #3b5998;
+}
+
+
+
+.square{
+  width: 30%;
+  background-color: purple;
+  height: 150px;
+  padding-bottom: 10px;
+  float: left;
+  margin: 1.6%;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
